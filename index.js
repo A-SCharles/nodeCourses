@@ -2,7 +2,7 @@
 let courses = [
   {
     id: 1,
-    name: "Software Engineering",
+    name: "Softwares Engineering",
   },
   {
     id: 2,
