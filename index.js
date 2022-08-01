@@ -16,9 +16,10 @@ let courses = [
 
 const express = require("express");
 const app = express();
+require('dotenv').config();
 
 // opens port
-app.listen(3000);
+app.listen(process.env.PORT);
 
 // All
 app.get("/", (req, res) => {
